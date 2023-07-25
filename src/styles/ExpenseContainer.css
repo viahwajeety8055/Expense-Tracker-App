@@ -1,0 +1,12 @@
+.expense-list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    overflow-y: scroll;
+}
+
+.expense-list::-webkit-scrollbar {
+    display: none;
+}

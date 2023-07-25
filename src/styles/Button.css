@@ -1,0 +1,15 @@
+.btn-design{
+    padding: 1rem 2rem;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: aqua;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-design:hover{
+    box-shadow: 0 10px 10px 0 black;
+}

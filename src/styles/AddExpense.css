@@ -1,0 +1,42 @@
+.add-expense{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color:cadetblue;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.add-expense .con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.add-expense .con input{
+    width: 50%;
+    height: 40px;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.add-expense .con button{
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    background-color:aqua;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.add-expense .con button:hover{
+    box-shadow: 0 10px 10px 0 black;
+}
+
+.add-expense .con input:hover{
+    background-color: aqua;
+
+}
